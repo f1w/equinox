@@ -1,4 +1,4 @@
-module github.com/Kyagara/equinox/v2
+module github.com/f1w/equinox/v2
 
 go 1.23
 
