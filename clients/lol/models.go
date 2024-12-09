@@ -314,7 +314,7 @@ type MatchChallengesV5DTO struct {
 	AcesBefore15Minutes                       int32   `json:"acesBefore15Minutes,omitempty"`
 	BaronTakedowns                            int32   `json:"baronTakedowns,omitempty"`
 	BlastConeOppositeOpponentCount            int32   `json:"blastConeOppositeOpponentCount,omitempty"`
-	BountyGold                                int32   `json:"bountyGold,omitempty"`
+	BountyGold                                float32   `json:"bountyGold,omitempty"`
 	BuffsStolen                               int32   `json:"buffsStolen,omitempty"`
 	CompleteSupportQuestInTime                int32   `json:"completeSupportQuestInTime,omitempty"`
 	ControlWardsPlaced                        int32   `json:"controlWardsPlaced,omitempty"`
@@ -486,7 +486,7 @@ type MatchEventsTimeLineV5DTO struct {
 	Position                MatchPositionV5DTO               `json:"position,omitempty"`
 	AfterID                 int32                            `json:"afterId,omitempty"`
 	BeforeID                int32                            `json:"beforeId,omitempty"`
-	Bounty                  int32                            `json:"bounty,omitempty"`
+	Bounty                  float32                            `json:"bounty,omitempty"`
 	CreatorID               int32                            `json:"creatorId,omitempty"`
 	GoldGain                int32                            `json:"goldGain,omitempty"`
 	ItemID                  int32                            `json:"itemId,omitempty"`
@@ -496,7 +496,7 @@ type MatchEventsTimeLineV5DTO struct {
 	Level                   int32                            `json:"level,omitempty"`
 	MultiKillLength         int32                            `json:"multiKillLength,omitempty"`
 	ParticipantID           int32                            `json:"participantId,omitempty"`
-	ShutdownBounty          int32                            `json:"shutdownBounty,omitempty"`
+	ShutdownBounty          float32                            `json:"shutdownBounty,omitempty"`
 	SkillSlot               int32                            `json:"skillSlot,omitempty"`
 	TeamID                  Team                             `json:"teamId,omitempty"`
 	VictimID                int32                            `json:"victimId,omitempty"`
